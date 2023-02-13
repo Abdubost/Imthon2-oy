@@ -1,0 +1,81 @@
+.started{
+    padding-bottom: 152px;
+}
+.started__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.started__hiiden-img{
+    display: none;
+}
+.started-img{
+    width: 263px;
+    height: 500px;
+}
+.started__title{
+    font-family: 'DM Serif Display';
+    max-width: 546px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #36536B;
+}
+.sig-in{
+    margin-top: 24px;
+    position: relative;
+}
+.input{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    opacity: 0.5;
+    padding: 16px 103px 14px 27px;
+    border-radius: 24px;
+    border: 2px solid #ffffff;
+}
+.btn{
+    color: #ffffff;
+    background: #BA4270;
+    border-radius: 24px;
+    padding: 16px 24.5px 14px 26.5px;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+.started__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6C8294;
+}
+
+@media screen and (max-width:885px) {
+    .started__hiiden-img{
+        display: block;
+    }
+    .syarted__img{
+        display: none;
+    }
+    .started__container{
+        flex-direction: column;
+    }
+    .started__title{
+        max-width: 573px;
+    }
+    .started__text{
+        text-align: center;
+    }
+    .started__title{
+        text-align: center;
+    }
+    .started__text{
+        margin-top: 80px;
+    }
+    .btn{
+        top: 55px;
+        left: auto;
+        left: 30px;
+    }
+}
